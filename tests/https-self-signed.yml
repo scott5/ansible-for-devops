@@ -7,3 +7,5 @@
 
 # HTTPS Self-Signed Certificate test.
 - import_playbook: ../https-self-signed/provisioning/main.yml
+  vars:
+    firewall_enable_ipv6: false
